@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<br>
+  <head lang="en">
+  <title>Build a Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">  
+      <label for="name" id="name-label"> Name
+        <input id="name" type="text" required placeholder="Enter your name">
+      </label> <br>
+      <label for="email" id="email-label">Email
+        <input id="email" type="email" required placeholder="Enter your email">
+      </label><br>
+      <label for="number" id="number-label"> Age(optional)
+        <input id="number" type="number" min="14" max="120" placeholder="Enter your age">
+      </label><br>
+      <p>Which option best describes your current role?</p>
+      <label for="definitely">
+        <input type="radio" id="definitely" class="inline" name="role" value="Definitely" > Definitely
+      </label></br>
+      <label for="maybe">
+        <input type="radio" name="role" id="maybe" class="inline" value="Maybe" > Maybe
+      </label></br>
+      <label for="not_sure">
+        <input type="radio" name="role" id="not_sure" class="inline" value="Not sure" > Not sure
+      </label>
+      </br>
+      </br>
+     <label for="dropdown" class="dropdown">What is your favorite feature of freeCodeCamp? 
+      <select id="dropdown"> 
+        <option>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </select>
+     </label>
+      <p>What would you like to see improved? (Check all that apply): </p>
+      <label for="front_end">
+        <input type="checkbox" id="front_end" value="1" class="inline_checkbox" >Front-end Projects
+      </label></br>
+      <label for="back_end">
+        <input type="checkbox" id="back_end" value="1" class="inline_checkbox">Back-end Projects
+      </label></br>
+      <label for="data">
+        <input type="checkbox" id="data" value="1" class="inline_checkbox">Data Visualization
+      </label></br>
+      <label for="challenges">
+        <input type="checkbox" id="challenges" value="1" class="inline_checkbox">Challenges
+      </label></br>
+      <label for="open_source">
+        <input type="checkbox" id="open_source" value="1" class="inline_checkbox">Open Source Community
+      </label></br>
+      <label for="Gitter">
+        <input type="checkbox" id="Gitter" value="1" class="inline_checkbox">Gitter help rooms
+      </label></br>
+      <label for="Videos">
+        <input type="checkbox" id="Videos" value="1" class="inline_checkbox">Videos
+      </label></br>
+      <label for="City_meetups">
+        <input type="checkbox" id="City_meetups" value="1" class="inline_checkbox">City Meetups
+      </label></br>
+      <label for="wiki">
+        <input type="checkbox" id="wiki" value="1" class="inline_checkbox">Wiki
+      </label></br>
+      <label for="forum">
+        <input type="checkbox" id="forum" value="1" class="inline_checkbox">Forum
+      </label></br>
+      <label for="add_coures">
+        <input type="checkbox" id="add_coures" value="1" class="inline_checkbox">Additional Courses
+      </label></br></br>
+      <label for="comment">
+        Any comments or suggestions?
+        <textarea id="comment" placeholder="Enter your comment here...">
+        </textarea>  
+      </label>
+
+      <button id="submit"> Submit</button>
+    </form>
+  </body>
+</html>

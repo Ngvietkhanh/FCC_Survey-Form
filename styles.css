@@ -1,0 +1,87 @@
+boydy{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+
+}
+#title,#description{
+    text-align: center;
+}
+form{
+    font-size: 20px;
+    text-align: left;
+    color:white;
+    width: 60vw;
+    height: 100vh;
+    background-color: #232344;
+    margin: 10px auto;
+    opacity:80%;
+    padding: 40px;
+}
+input{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 3px;
+}
+#name,#email,#number{
+    width: 100%;
+    height: 2em;
+}
+.inline{
+    display: unset;
+    margin-top: 10px;
+    margin-right: 3px;
+    min-height: 1.15rem;
+    min-width: 1.15rem;
+
+    align-items: center;
+}
+p{
+    margin-bottom: 5px;
+}
+#dropdown{
+    width: 100%;
+    height: 2.5em;
+    font-size: 15px;
+    margin-top: 5px;
+}
+label{
+    margin:15px auto 10px auto;
+}
+.dropdown{
+    margin:100px auto 10px auto;
+}
+.inline_checkbox{
+    display: unset;
+    margin-top: 15px;
+
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    align-items: center;
+    margin-right: 10px;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+#submit{
+    width: 100%;
+    height: 3em;
+    margin-top: 20px;
+    background-color: rgb(10, 152, 86);
+    border:0px ;
+    color: white;
+    font-size: 15px;
+}
+#submit:hover{
+    background-color: rgb(16, 103, 62);
+}
+
+
+
+
+
+
+
